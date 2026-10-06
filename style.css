@@ -1,0 +1,14 @@
+header{background-color: chocolate;color: black;font-weight: bold;font-style: italic;text-align: center;border: solid black 3px;border-radius: 35px;}
+h1{font-size: 40px;}
+li{text-decoration: none;display: inline; margin: 0 10px;}
+a{text-decoration: none;color: black;font-size: 20px;}
+p{text-align: center;font-size: 15px;font-style: italic;font-weight: bold;}
+img{width: 350px;height: 300px;border: solid chocolate 3px;border-radius: 35px;}
+footer{text-align: center;background-color: chocolate;color: black;font-weight: bold;font-style: italic;text-align: center;border: solid black 3px;border-radius: 35px;}
+b{color: darkred;}
+#pp{border: solid chocolate 3px;border-radius: 35px;}
+label{color: brown;font-weight: bold;font-style: italic;}
+input{border: solid brown;border-radius: 30px;}
+textarea{border: solid brown;border-radius: 30px;}
+#l{border: solid brown;border-radius: 30px; background-color: beige;color: black;font-size: 20px;font-weight: bold;font-style: italic;}
+#g{color: brown;font-weight: bold;font-style: italic;}

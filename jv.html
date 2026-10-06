@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CALCULER</h1>
+      <ul>
+        <li><a href="index.html">accueil</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="jv.html">calculer</a></li>
+      </ul>
+    </header>
+    <center>
+      <form action="">
+        <table id="pp">
+          <tr>
+            <td><b>donner taille:</b> <input type="number" id="t" /></td>
+          </tr>
+          <tr>
+            <td><b>donner masse en kg:</b> <input type="number" id="m" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" onclick="fun()" value="calculer" id="l" />
+            </td>
+          </tr>
+        </table>
+
+        <script>
+          function fun() {
+            m = document.getElementById("m").value;
+            t = document.getElementById("t").value;
+            Imc = m / (t * t);
+            alert(Imc);
+            if (18.5 > Imc) {
+              alert("maigre");
+            } else if (18.5 < Imc && imc < 25) {
+              alert("normal chez un adulte");
+            } else if (25 < Imc && Imc < 30) {
+              alert("Surpoids (surcharge pondérale)");
+            } else if (30 < Imc && Imc < 35) {
+              alert("obésité");
+            } else {
+              alert("obésité sévère");
+            }
+          }
+        </script>
+      </form>
+    </center>
+    <footer>
+      @yassmine/neji
+      <ul>
+        <li><a href="index.html">accueil</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="jv.html">calculer</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
